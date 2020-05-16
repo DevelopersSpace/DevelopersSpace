@@ -1,7 +1,81 @@
-{% extends "Layout.html" %}
-{% block body %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Starting with Arduino</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+  </head>
+  <body>
 <h1>Arduino</h1>
-  <img src="/static/images/Arduino_Logo.jpg" height = "200px"/>
+  <img src="Arduino_Logo.jpg" height = "200px"/>
   <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software.
   Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a software 
   or IDE(Integrated Development Environment) that is used to write and upload computer code to the Arduino board.
@@ -10,4 +84,9 @@
 <h3>Downloading the IDE</h3>
   <p>You can find the software in the link below to the original Arduino Website:</p>
   <a href = "https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a>
-{% endblock %}
+<div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  </body>
+</html>
