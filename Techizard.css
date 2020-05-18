@@ -78,6 +78,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  width:100%;
 }
 
 /* Style the topnav links */
