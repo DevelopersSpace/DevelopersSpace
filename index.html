@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<link rel="stylesheet" href="Techizard.css">
-		<title>Developers' Space</title>
+		<link rel="stylesheet" href="developersspace.css">
+		<title>Developers Space</title>
 	</head>
     <body style = "margin:5px;">
 <div id="main">
 	<div id="title">
-		<img src="developersspace.jpg" height = "185px" style="float:right;margin:15px;" />
-		<div class="tt">Developers' Space</div>
+		<img src="developersspace.jpg" height = "150px" style="float:right;margin:15px;border: 3px solid white;" />
+		<div class="tt">Developers Space</div>
 	</div>
 	<div class="topnav">
   <a href="index.html">Home</a>
@@ -27,10 +27,9 @@
 
 <!-- Tab content -->
 <div id="Arduino" class="tabcontent">
-  <h2>Arduino terere </h2>
+  <h2>Arduino</h2>
   <img src="Arduino_Logo.jpg" height = "200px"/>
-  <p><a href = "Arduino.html">Begin with Arduino</a></p>
-   
+		<button class="tablinks" onclick="openInfo(event, 'Arduino')" >Arduino</button>   
 </div>
 
 <div id="Raspberry Pi" class="tabcontent">
@@ -90,13 +89,14 @@ function openInfo(evt, cityName) {
 }
 </script>
 
-        <h1>Welcome to Techizard-The tech expert</h1>
-	Come and learn interesting things like:
+        <h1>Welcome to Developers Space</h1>
+	Space for all the developers and hobbyist to share, develope and interact.
+	Learn, share and develope interesting things like:
 		<ul>
-			<li>Programming
+			<li>Programming in various languages
 			<li>Arduino
 			<li>Raspberry Pi
-			<li>NodeMCU, 
+			<li>NodeMCU
 		</ul>
 	and more.......
     </div>

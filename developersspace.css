@@ -1,5 +1,5 @@
 #title{
-	background-color:#9e9191;
+	background-color:#424242;
 }
 #main {
 	width:98%;
@@ -9,14 +9,14 @@
 	border:3px solid black;
 }
 .tt{
-	font-size:185px;
-	color:white;
+	font-size:150px;
+	color:red;
 }
 .tab {
   overflow: hidden;
   border: 2px solid white;
-  background-color: #f1f1f1;
-  font-color:#ff0022;
+  background-color: #424242;
+  color:red;
 }
 h1,h2
 	{
@@ -24,23 +24,28 @@ h1,h2
 	}
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: #9e9191;
+  background-color: #424242;
   float: left;
   border: 2px solid white collapse;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  color:red;
+  font-size:15px;
+  font-style:bold;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: red;
+  color:black;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ddd;
+  background-color: red;
+    color:black;
 }
 
 /* Style the tab content */
@@ -77,7 +82,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #424242;
   width:100%;
 }
 
