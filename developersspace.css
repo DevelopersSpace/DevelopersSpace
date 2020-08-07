@@ -1,39 +1,48 @@
+.content{
+	color:#00fff7;
+	font-family:Lucida Bright;
+}
 #title{
 	background-color:#424242;
+	border:5px solid white;
+		font-family:Lucida Bright;
 }
 #main {
 	width:98%;
 	min-height:650px`;
 	margin:auto;
 	padding:10px;
-	border:3px solid black;
+	border:5px solid white;
+		font-family:Lucida Bright;
 }
 .tt{
-	font-size:150px;
-	color:red;
+	font-size:135px;
+	font-family:Lucida Bright;
+	color:#ff0000;
 }
 .tab {
   overflow: hidden;
-  border: 2px solid white;
+  border: 5px solid white;
   background-color: #424242;
   color:red;
 }
 h1,h2
 	{
-		color: #ff0022;
+		color: #fc30bf;
 	}
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: #424242;
   float: left;
-  border: 2px solid white collapse;
+  border-right: 5px solid white;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  color:red;
-  font-size:15px;
+  color:#00fff7;
+  font-size:17px;
   font-style:bold;
+  font-family:Lucida Bright;
 }
 
 /* Change background color of buttons on hover */
@@ -52,10 +61,10 @@ h1,h2
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 2px solid #00ffaa;
-  border-top: none;
-   -webkit-animation: fadeEffect 1s;
+  border: 5px solid red;
+ -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
+  color:#00fff7;
 }
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
@@ -84,13 +93,15 @@ body {
   overflow: hidden;
   background-color: #424242;
   width:100%;
+  border-right:5px solid white;
+  border-left:5px solid white
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #00fff7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -98,7 +109,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: red;
   color: black;
 }
 
